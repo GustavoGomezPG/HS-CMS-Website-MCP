@@ -26,7 +26,7 @@ Add to your Claude Desktop config (`~/.claude/claude_desktop_config.json`):
     "hubspot-website": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "github:YOUR_USERNAME/hubspot-website-mcp"]
+      "args": ["-y", "github:GustavoGomezPG//HS-CMS-Website-MCP"]
     }
   }
 }
@@ -35,7 +35,7 @@ Add to your Claude Desktop config (`~/.claude/claude_desktop_config.json`):
 ### Local Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hubspot-website-mcp.git
+git clone https://github.com/GustavoGomezPG/HS-CMS-Website-MCP.git
 cd hubspot-website-mcp
 npm install
 npm start
