@@ -1,0 +1,46 @@
+{
+  "name": "hubspot-website-mcp",
+  "version": "1.0.0",
+  "description": "MCP server providing comprehensive HubSpot CMS development documentation - modules, templates, themes, HubL, and more",
+  "main": "server.js",
+  "type": "module",
+  "bin": {
+    "hubspot-website-mcp": "./server.js"
+  },
+  "files": [
+    "server.js",
+    "content/**/*"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test server.test.js",
+    "test:verbose": "node --test --test-reporter spec server.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "hubspot",
+    "cms",
+    "hubl",
+    "modules",
+    "templates",
+    "themes",
+    "model-context-protocol",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "mcp": {
+    "server": {
+      "name": "hubspot-website-mcp",
+      "description": "HubSpot Website MCP - CMS development documentation server",
+      "version": "1.0.0"
+    }
+  }
+}

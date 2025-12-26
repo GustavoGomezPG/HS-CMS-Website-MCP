@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "hubspot-website": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "github:YOUR_USERNAME/hubspot-website-mcp"]
+    }
+  }
+}
